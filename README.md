@@ -15,7 +15,14 @@ Python 3
 
 You will also need to have a Twitter developer account and a registered App which will give allow you to generate the consumer keys and access tokens required for the API.
 
-Make sure to include those in the code as specified by the placeholder strings: "your_consumer_key", "your_secret_consumer_key", "your_access_token" and "your_secret_token".
+Make sure to include those in the code as specified by the placeholder strings:
+```
+consumer_key = 'your_consumer_key'
+consumer_key_secret = 'your_secret_consumer_key'
+
+access_token = 'your_access_token'
+access_token_secret = 'your_secret_token'
+```
 
 ### Installing
 
