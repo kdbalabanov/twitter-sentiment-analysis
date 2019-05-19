@@ -1,6 +1,11 @@
 # Twitter Sentiment Analysis
 
-Simple sentiment analysis of public tweets using Python 3. 
+Simple sentiment analysis of public tweets using Python 3.
+
+Sentiment analysis is performed using TextBlob:
+  - Positive sentiment: polarity > 0
+  - Neutral sentiment: polarity = 0
+  - Negative sentiment: polarity < 0
 
 ## Getting Started
 
@@ -130,3 +135,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Tweepy documentation: http://docs.tweepy.org/en/3.7.0/index.html
+* TextBlob documentation: https://textblob.readthedocs.io/en/dev/
